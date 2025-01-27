@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "make -f ./scripts/dev/Makefile",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3033",
     "lint": "eslint apiUtils pages",
     "test": "jest",
     "prepare": "husky",
